@@ -16,20 +16,35 @@
 
 .container {
   margin: 0;
-  padding-top: 10vh;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
+h1 {
+  color: #4AE4FF;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 5em;
+  height: 5em;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: #f6f6f6;
-    background-color: #2f2f2f;
+    background-color: #0D1117;
   }
 
   a:hover {
-    color: #24c8db;
+    color: #4AE4FF;
   }
 }
