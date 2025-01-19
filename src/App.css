@@ -1,8 +1,35 @@
+@font-face {
+  font-family: 'Economica';
+  src: url('./assets/fonts/Economica-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Economica';
+  src: url('./assets/fonts/Economica-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Economica';
+  src: url('./assets/fonts/Economica-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Economica';
+  src: url('./assets/fonts/Economica-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* ----------------------------- Base Selectors ----------------------------- */
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Economica', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  letter-spacing: 0.05em;
 
   color: #0f0f0f;
   background-color: #f6f6f6;
@@ -13,31 +40,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-.container {
-  margin: 0;
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-h1 {
-  color: #4AE4FF;
-}
-
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.logo {
-  width: 5em;
-  height: 5em;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     color: #f6f6f6;
@@ -47,4 +49,47 @@ h1 {
   a:hover {
     color: #4AE4FF;
   }
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 750px;
+}
+
+/* -------------------------- Component Containers -------------------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+  align-items: center;
+  border: #4AE4FF 0.1em solid;
+  border-radius: 1em 1em 0 0;
+  background-color: #131922;
+}
+.logo {
+  width: 5em;
+  height: 5em;
+}
+
+/* ---------------------------------- TEXT ---------------------------------- */
+h1 {
+  color: #4AE4FF;
+  font-size: 2.074rem;
+  margin: 0.25em 0;
+}
+h2 {
+  color: rgb(195, 213, 221);
+  font-size: 1.44rem;
+  margin: 0.25em 0;
 }

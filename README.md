@@ -1,7 +1,9 @@
-# Tauri + React
+# compress-resize
+## An easy to use, lightweight, and fast bulk image compressor, resizer, and converter.
 
-This template should help get you started developing with Tauri and React in Vite.
+This is a desktop application that allows you to compress, resize, and convert images in bulk. It is built using...
+- [React](https://reactjs.org/) for the frontend.
+- A JavaScript library called [sharp](https://sharp.pixelplumbing.com/) for the backend.
+- [Tauri](https://tauri.studio/) to bundle the frontend and backend together into a desktop executable.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+Created by [Kent Campbell](https://kentmcamp.github.io/).

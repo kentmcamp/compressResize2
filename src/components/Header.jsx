@@ -1,4 +1,4 @@
-import logo from '../assets/icon.png'
+import logo from '../assets/images/icon.png'
 
 function Header() {
 
@@ -7,6 +7,7 @@ function Header() {
             <div className="logo-header">
                 <img className="logo" src={logo} alt="Tauri Logo" />
             </div>
+
             <div className="title-header">
                 <div className="main-title">
                     <h1>COMPRESS-RESIZE</h1>
