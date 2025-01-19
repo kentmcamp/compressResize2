@@ -9,6 +9,7 @@
     "beforeBuildCommand": "npm run build",
     "frontendDist": "../dist"
   },
+
   "app": {
     "windows": [
       {
@@ -26,7 +27,11 @@
     "active": true,
     "targets": "all",
     "icon": [
-     "./icons/icon.ico"
+      "./icons/32icon.ico",
+      "./icons/128icon.ico",
+      "./icons/256icon.ico",
+      "./icons/512icon.ico",
+      "./icons/icon.ico"
     ]
   }
 }

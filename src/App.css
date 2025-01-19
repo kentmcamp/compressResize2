@@ -78,8 +78,10 @@ body {
   background-color: #131922;
 }
 .logo {
-  width: 5em;
-  height: 5em;
+  width: 3.5em;
+  height: 3.5em;
+  margin-top: 0.25em;
+  padding: 0.5em 0;
 }
 
 /* ---------------------------------- TEXT ---------------------------------- */
